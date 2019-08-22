@@ -36,7 +36,7 @@ The statistics code lives in the `stats` folder.
 
 `index.php` displays a simple table of how many stats each company has received.
 
-`process_request.php` is the file that the frontend sends its statistics form data to. You will have to configure the frontend to point to the right URL.
+`process_request.php` is the file that the frontend sends its statistics form data to. You will have to configure `index.php` to point to the right URL, following the comments in the last script block at the bottom of the page.
 
 It's best practice to move the `private` folder out of the webroot or add an `.htaccess` file to the folder to make it private. These files should not be accessible on the public internet for security reasons.
 
