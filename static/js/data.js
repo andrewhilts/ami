@@ -3,43 +3,31 @@ var AMIdata = {
 	"request_pdf_filename": "Formal_request_for_access_to_my_personal_information.pdf",
 	"industries": [
 		{
-			"id": "telco",
-			"name": "Telecommunications",
+			"id": "political",
+			"name": "Politial Parties",
 			"icon": "img/industries/telecommunications.svg",
-			"description": "Your phone call records, web browsing history, geolocation, and device identifiers."
-		},
-		{
-			"id": "fitness",
-			"name": "Fitness Trackers",
-			"icon": "img/industries/fitness-trackers.svg",
-			"description": "Your heartbeat, sleeping patterns, diet, weight, walking habits, and general health."
-		},
-		{
-			"id": "dating",
-			"name": "Dating Applications",
-			"icon": "img/industries/dating-applications.svg",
-			"description": "Your personality traits, sexual preferences, dating history, and other lifestyle information."
+			"description": "Sarah from the conservatives."
 		}
 	],
 	"companies": [
 		{
-			"name": "Telco1",
-			"id": "telco1",
+			"name": "pol1",
+			"id": "pol1",
 			"logo": "https://api.accessmyinfo.org/wp-content/uploads/2016/05/meetville-150x150.png",
 			"contact": {
-				"title": "Privacy Officer, Telco1",
+				"title": "Privacy Officer, pol1",
 				"has_mail": false,
 				"has_email": true,
-				"email": "telco1@telco1.ca"
+				"email": "pol1@pol1.ca"
 			},
-			"industry": "telco"
+			"industry": "political"
 		},
 		{
-			"name": "Telco2",
-			"id": "telco2",
+			"name": "pol2",
+			"id": "pol2",
 			"logo": "https://api.accessmyinfo.org/wp-content/uploads/2016/05/meetville-150x150.png",
 			"contact": {
-				"title": "Privacy Officer, Telco2",
+				"title": "Privacy Officer, pol2",
 				"has_mail": true,
 				"has_email": true,
 				"address1": "123 fake street",
@@ -48,58 +36,29 @@ var AMIdata = {
 				"region": "Ontario",
 				"postalcode": "H0H0H0",
 				"country": "Canada",
-				"email": "privacy@telco2.ca"
+				"email": "privacy@pol2.ca"
 			},
-			"industry": "telco"
-		},
-		{
-			"name": "Fitness1",
-			"id": "fitness1",
-			"logo": "https://api.accessmyinfo.org/wp-content/uploads/2016/05/meetville-150x150.png",
-			"contact": {
-				"title": "Privacy Officer, Fitness1",
-				"has_mail": false,
-				"has_email": true,
-				"email": "fitness1@tfitness1.ca"
-			},
-			"industry": "fitness"
-		},
-		{
-			"name": "dating1",
-			"id": "dating1",
-			"logo": "https://api.accessmyinfo.org/wp-content/uploads/2016/05/meetville-150x150.png",
-			"contact": {
-				"title": "Privacy Officer, Dating1",
-				"has_mail": true,
-				"has_email": false,
-				"address1": "123 fake street",
-				"address2": "Unit 10",
-				"city": "Toronto",
-				"region": "Ontario",
-				"postalcode": "H0H0H0",
-				"country": "Canada"
-			},
-			"industry": "dating"
+			"industry": "political"
 		},
 	],
 	"info_categories": [
 		{
-			"name": "Goeolocation",
+			"name": "Geolocation",
 			"id": "geolocation",
 			"description": "Your precise location",
-			"industries": ["telco", "fitness"]
+			"industries": ["political"]
 		},
 		{
 			"name": "IP addresses",
 			"id": "ip",
 			"description": "Your historical assigned IP addresses",
-			"industries": ["fitness","dating"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Third Party Disclosures",
 			"id": "disclosures",
 			"description": "Records about sharing your info with third parties",
-			"industries": ["telco","dating"]
+			"industries": ["political"]
 		}
 	],
 	"personal_identifiers": [
@@ -107,43 +66,43 @@ var AMIdata = {
 			"name": "First Name",
 			"id": "firstname",
 			"description": "Your first name",
-			"industries": ["telco", "fitness"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Last Name",
 			"id": "lastname",
 			"description": "Your last name",
-			"industries": ["telco", "fitness"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Email",
 			"id": "email",
 			"description": "Your email address",
-			"industries": ["fitness"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Telephone",
 			"id": "telephone",
 			"description": "Your phone number.",
-			"industries": ["telco"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Address 1",
 			"id": "address1",
 			"description": "First line of your address",
-			"industries": ["telco"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Address 2",
 			"id": "address2",
 			"description": "Second line of your address",
-			"industries": ["telco"]
+			"industries": ["political"]
 		},
 		{
 			"name": "City",
 			"id": "city",
 			"description": "City you reside in",
-			"industries": ["telco"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Province",
@@ -207,13 +166,13 @@ var AMIdata = {
 					"name": "Yukon"
 				},
 			],
-			"industries": ["telco"]
+			"industries": ["political"]
 		},
 		{
 			"name": "Postal Code",
 			"id": "postalcode",
 			"description": "Postal Code",
-			"industries": ["telco"]
+			"industries": ["political"]
 		}
 	]
 }
