@@ -41,7 +41,7 @@ It's best practice to move the `private` folder out of the webroot or add an `.h
 ### Installation
 Create a new MYSQL database for tracking stats.
 
-Edit the `stats/db/db_connection.php` file to point to that new database, and edit the credentials as needed.
+Copy `stats/private/db/db_connection_template.php` to`stats/private/db/db_connection.php`, and edit the new file to point to that new database, and edit the credentials as needed.
 
 Execute the `install.sql` command in PHPMyAdmin or through command line. THis will create the required database tables.
 
