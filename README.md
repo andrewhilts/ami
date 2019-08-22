@@ -1,4 +1,6 @@
 # Access My Info
+THIS IS IN ACTIVE DEVELOPMENT. USE AT OWN RISK.
+
 AMI is a web application that helps people to create legal requests for copies of their personal information from data operators. AMI is a step-by-step wizard that results in the generation of a personalized formal letter requesting access to the information that an operator stores and utilizes about a person.
 
 ## Installation
