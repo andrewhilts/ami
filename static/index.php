@@ -504,14 +504,14 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
 <div class="mv3 ph1 ph0-ns">
-    <a class="btn btn-social dib fill-white pa1" ng-href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faccessmyinfo.org" target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faccessmyinfo.org">
+    <a class="btn btn-social dib fill-white pa1" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faccessmyinfo.org" target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faccessmyinfo.org">
       <img ng-src="img/facebook.svg" class="w2" src="img/facebook.svg">
     </a>
-    <a class="btn btn-social dib fill-white pa1" ng-href="https://twitter.com/home?status=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org" target="blank" href="https://twitter.com/home?status=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org">
+    <a class="btn btn-social dib fill-white pa1" href="https://twitter.com/intent/tweet?text=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org" target="blank">
       <img ng-src="img/twitter.svg" class="w2" src="img/twitter.svg">
     </a>
     <span class="display-none-ns">
-        <a class="btn btn-social dib fill-white pa1" ng-href="whatsapp://send?text=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org" data-action="share/whatsapp/share" href="whatsapp://send?text=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org">
+        <a class="btn btn-social dib fill-white pa1" href="whatsapp://send?text=Do%20you%20know%20you%20have%20the%20right%20to%20access%20your%20own%20personal%20info%3F%20Find%20out%20what%20companies%20know%20about%20you%20at%20https%3A%2F%2Faccessmyinfo.org">
             <img ng-src="img/whatsapp.svg" class="w2" src="img/whatsapp.svg">
         </a>
     </span>
