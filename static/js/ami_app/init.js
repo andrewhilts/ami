@@ -6,7 +6,6 @@ if(document.location.protocol === 'http:'){
 }
 
 var amiApp = {}
-amiApp.dataSource = AMIdata;
 amiApp.industries = []
 amiApp.request = {}
 

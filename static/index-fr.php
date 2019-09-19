@@ -21,7 +21,7 @@ MOSQUITO wants its sweet, sweet data
 <html class="no-js" lang="">
 <head>
   <meta charset="utf-8">
-  <title>Access My Info</title>
+  <title>Obtenir mes infos</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,12 +44,12 @@ MOSQUITO wants its sweet, sweet data
   <div class="container center tc">
     <h1 class="ph1 mb0 mt1"><span>
         <!-- ADD YOUR LOGO HERE -->
-        <img class="w10 width-titleimage-ns mw-100 w5-ns maxwidth-100p mb1" alt="Access My Info Logo" src="img/AMICAFullLogoRedBackground.png">
+        <img class="w10 width-titleimage-ns mw-100 w5-ns maxwidth-100p mb1" alt="Obtenirs Mes Infos Logo" src="img/AMICAFullLogoRedBackground.png">
     </span></h1>
     <div>
   </div>
   <div class="absolute top-1 right-1">
-    <a class="btn btn-primary f7" href="index-fr.php">Français</a>
+    <a class="btn btn-primary f7" href="index.php">English</a>
   </div>
 </header>
 
@@ -69,31 +69,31 @@ MOSQUITO wants its sweet, sweet data
       <li>
         <a id="nav_el_industry" class="pv2">
           <span class="db dn-ns">1</span>
-          <span class="dn db-ns">Start</span>
+          <span class="dn db-ns">Début</span>
         </a>
       </li>
       <li>
         <a id="nav_el_company" class="pv2">
           <span class="db dn-ns">2</span>
-          <span class="dn db-ns">Company</span>
+          <span class="dn db-ns">Entreprise</span>
         </a>
       </li>
       <li>
         <a id="nav_el_information" class="pv2">
           <span class="db dn-ns">3</span>
-          <span class="dn db-ns">Data</span>
+          <span class="dn db-ns">Données</span>
         </a>
       </li>
       <li>
         <a id="nav_el_identifiers" class="pv2">
           <span class="db dn-ns">4</span>
-          <span class="dn db-ns">ID</span>
+          <span class="dn db-ns">Coordonnées</span>
         </a>
       </li>
       <li>
         <a id="nav_el_request" class="pv2">
           <span class="db dn-ns">5</span>
-          <span class="dn db-ns">Request</span>
+          <span class="dn db-ns">Demande</span>
         </a>
       </li>
     </ol>
@@ -111,10 +111,10 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
   <section id="stage_industry" class="dn">
-    <h2 class="tc">Welcome to Access My Info!</h2>
-  <p class="lh-copy">What do companies know about you? What do they keep on file? Who do they share it with? Organizations are required by Canadian privacy laws to disclose this information to their customers upon request. We can help with that.</p>
+    <h2 class="tc">Bienvenue sur Obtenir mes infos</h2>
+  <p class="lh-copy">Que savent les entreprises à votre sujet? Quelles informations conservent-ils? Avec qui partagent-ils ces informations? En vertu des lois canadiennes sur la protection de la vie privée, les organisations doivent vous donner accès à vos renseignements personnels lorsque vous en faites la demande. Nous pouvons vous aider à faire une telle demande.</p>
     <div class="bg-light-gray pa3 mt4">
-        <p class="f6 b tc">Request information from:</p>
+        <p class="f6 b tc">Demande d'accès à :</p>
         <ul id="industry" class="pa0">  
         <!-- 
         ****************************************************
@@ -178,7 +178,7 @@ MOSQUITO wants its sweet, sweet data
           </div>
         </li>
       </ul>
-      <p class="tc f6">You may make multiple requests with our website (but one at a time!).</p>
+      <p class="tc f6">Vous pouvez faire plusieurs demandes d'accès avec notre site web (mais une seule à la fois!).</p>
     </div>
   </section>
 
@@ -191,8 +191,8 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
   <section id="stage_company" class="dn">
-    <h2 class="tc ph2 ph0-ns">Select your service provider</h2>
-    <p class="lh-copy ph2 ph0-ns"><strong>Begin your request</strong> by selecting a company that provides you a service.</p>
+    <h2 class="tc ph2 ph0-ns">Sélectionnez votre fournisseur de service</h2>
+    <p class="lh-copy ph2 ph0-ns"><strong>Commencez votre demande d'accès</strong> en sélectionnant une organisation qui vous fournit un service.</p>
     <div class="bg-light-gray pa3">
       <ul id="company" class="pa0">
         <!-- template for an individual company listing. feel free to change classes around if you want to alter look and feel -->
@@ -210,8 +210,8 @@ MOSQUITO wants its sweet, sweet data
         </li>
       </ul>
       <div class="cf">
-        <button class="btn btn-previous fl" id="back_el_company">Back</button>
-        <button class="btn fr" id="next_el_company">Next</button>
+        <button class="btn btn-previous fl" id="back_el_company">Précédent</button>
+        <button class="btn fr" id="next_el_company">Suivant</button>
       </div>
     </div>
   </section>
@@ -226,16 +226,16 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
   <section id="stage_information" class="dn">
-    <h2 class="tc ph2 ph0-ns">What data do you want to access?</h2>
-    <p class="lh-copy ph2 ph0-ns">Make inquiries about how your data is collected, used, shared and stored.</p>
+    <h2 class="tc ph2 ph0-ns">Quelles sont les données auxquelles vous voulez avoir accès?</h2>
+    <p class="lh-copy ph2 ph0-ns">Apprenez comment vos données sont recueillies, utilisées, partagées et conservées.</p>
     <div class="bg-light-gray pv3 ph4">
       <!-- Selected company name template and value container -->
-      <h3>Data requested from <span id="information_company_name"><span ami_template_id="info_company_template"><span ami_template_value_container="name">Org</span></span></span></h3>
-      <span class="note f4">This list is meant to be exhaustive. 
+      <h3>Données demandées de <span id="information_company_name"><span ami_template_id="info_company_template"><span ami_template_value_container="name">Org</span></span></span></h3>
+      <span class="note f4">Cette liste se veut exhaustive.
         <strong>
           <!-- The below span id is a hack, and the content gets replaced with JS... I got lazy and didn't register a full template for it. -->
           <span id="information_company_name2">Org</span> 
-        may not retain some of these items</strong>.</span>
+        ne détient peut-être pas certains de ces éléments.</strong>.</span>
       <form id="info_categories" class="mt4">
         <!-- Template for each information category -->
         <div ami_template_id="info_category_select_template">
@@ -257,10 +257,10 @@ MOSQUITO wants its sweet, sweet data
         </div>
       </form>
       <div class="cf">
-        <button class="btn btn-previous fl" id="back_el_information">Back</button>
+        <button class="btn btn-previous fl" id="back_el_information">Précédent</button>
         <div class="fr" id="info_category_select_button">
           <button class="btn" ami_template_id="info_category_select_button_template">
-            <span>Next</span>
+            <span>Suivant</span>
           </button>
         </div>
       </div>
@@ -278,14 +278,15 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
  <section id="stage_identifiers" class="dn">
-    <h2 class="tc ph2 ph0-ns">Identifying information</h2>
-    <p class="lh-copy ph2 ph0-ns">Enter your information so <span id="identifiers_company_name">
+    <h2 class="tc ph2 ph0-ns">Vos coordonnées</h2>
+    <p class="lh-copy ph2 ph0-ns">Entrez vos renseignements personnels pour que<span id="identifiers_company_name">
       <!-- Company name here -->
       <span ami_template_id="identifiers_company_template">
         <span ami_template_value_container="name">Org</span>
       </span>
-    </span> can identify you in their records.</p>
-    <p class="lh-copy ph2 ph0-ns b">Access My Info will not collect or store any of the personal information below.</p>
+    </span> puisse vous identifier dans ses archives.
+  </p>
+    <p class="lh-copy ph2 ph0-ns b">Obtenir mes infos ne recueillera pas ou n'enregistrera pas les renseignements personnels ci-dessous.</p>
     <div class="bg-light-gray pa4">
       <form id="personal_identifiers">
         <!-- each personal identifier associated with the selected industry in data.js gets added here as an input or select element -->
@@ -305,16 +306,16 @@ MOSQUITO wants its sweet, sweet data
       <!-- Opt out checkbox. keep dn class there. it gets removed if stats are enabled -->
       <div id="optout_container" class="dn">
         <hr class="mv3"/>
-        <p>I consent and authorize:</p>
+        <p>Je consens et j'autorise :</p>
         <div class="ml2 mt3 mb4">
-        <label><input type="checkbox" id="optout" class="mr1"/>{{YOUR ORG}} may collect basic information about from whom I requested data for statistical purposes.</label>
+        <label><input type="checkbox" id="optout" class="mr1"/>{{YOUR ORG}} pourrait recueillir des informations à propos des organisations auxquelles j'ai fait une demande d'accès, cela à des fins statistiques.</label>
         </div>
       </div>
       <div class="cf">
-        <button class="btn btn-previous fl" id="back_el_identifiers">Back</button>
+        <button class="btn btn-previous fl" id="back_el_identifiers">Précédent</button>
         <div class="fr" id="personal_identifiers_button">
           <button class="btn" ami_template_id="personal_identifiers_button_template">
-            <span>Next</span>
+            <span>Suivant</span>
           </button>
         </div>
       </div>
@@ -333,12 +334,12 @@ MOSQUITO wants its sweet, sweet data
  -->
   <section id="stage_request" class="dn">
     <!-- intro text -->
-    <h2 class="tc ph2 ph0-ns">Your request is ready</h2>
-    <p class="lh-copy ph2 ph0-ns">Your letter to <span id="request_company_name">
+    <h2 class="tc ph2 ph0-ns">Votre demande d'accès est prête</h2>
+    <p class="lh-copy ph2 ph0-ns">Votre lettre à <span id="request_company_name">
       <!-- Company name -->
       <span ami_template_id="request_company_template"><span ami_template_value_container="name">Org</span>
-    </span></span> has been successfully generated by our system.</p>
-    <p class="lh-copy ph2 ph0-ns b">Read over the letter carefully, then follow the instructions below.</p>
+    </span></span> a été générée par notre système.</p>
+    <p class="lh-copy ph2 ph0-ns b">Relisez attentivement la lettre et suivez ensuite les instructions ci-dessous.</p>
 
     <!-- BELOW IS THE REQUEST LETTER -->
     <div class="bg-light-gray pa4 f6" id="request">
@@ -458,11 +459,11 @@ MOSQUITO wants its sweet, sweet data
     </div>
   </div>
 </div>
-<h2 class="tc ph2 ph0-ns" id="method_title_email_only">This company currently only accepts requests by email.</h2>
+<h2 class="tc ph2 ph0-ns" id="method_title_email_only">Cette entreprise n'accepte actuellement que les demandes par courriel.</h2>
 <div id="email_method">
-  <h3>Email</h3>
+  <h3>Courriel</h3>
   <div class="bg-light-gray pa4 f5">
-    <p>Use the button below to email your letter to:</p>
+    <p>Utilisez le bouton ci-dessous pour envoyer votre lettre à :</p>
     <div id="request_email_address">
       <!-- Print out email address of the org -->
       <address class="f6 pl2 bl bw2 b--white mb2 lh-solid" ami_template_id="request_company_email_template">
@@ -474,27 +475,27 @@ MOSQUITO wants its sweet, sweet data
         <!-- Don't mess with the IDS, but this is used for email send option. Feel free to adjust classes, as usual -->
       <div class="dib mr2" id="request_email_button">
         <a class="btn btn-primary" ami_template_id="request_email_button_template">
-          <span>Open email client</span>
+          <span>Ouvrir le logiciel de messagerie</span>
         </a>
       </div>
       <span>OR</span>
       <!-- Don't mess with the IDS, but this is used for GMail send option. Feel free to adjust classes, as usual -->
       <div class="dib ml2" id="request_gmail_button">
         <a class="btn btn-primary" ami_template_id="request_gmail_button_template" target="blank">
-          <span>Open Gmail</span>
+          <span>Ouvrir Gmail</span>
         </a>
       </div>
       <!-- This ID is used to make the element clickable and copy the request letter upon click -->
-      <p class="b link" id="request_copy_button">If the email is empty or a button didn't work...
-  <span class="underline pointer">Click here</span> to copy the text of the email to your clipboard</p>
+      <p class="b link" id="request_copy_button">Si le texte de la demande n'apparaît pas dans le courriel ou si le bouton n'a pas fonctionné...
+  <span class="underline pointer">Cliquez ici</span> pour copier le texte du courriel dans votre presse-papier.</p>
   </div>
 </div>
 <div class="cf">
-  <button class="btn btn-previous fl mt2" id="back_el_request">Back</button>
+  <button class="btn btn-previous fl mt2" id="back_el_request">Précédent</button>
 </div>
 
-<p class="b lh-copy">That's it! Thank you for participating in the Access My Info project.</p>
-<p class="">Spread the word about our project:</p>
+<p class="b lh-copy">C'est tout! Merci d'avoir participé au projet Obtenir mes infos.</p>
+<p class="">Faites connaître notre projet :</p>
 
 <!-- 
 ****************************************************
@@ -521,7 +522,8 @@ MOSQUITO wants its sweet, sweet data
     </span>
   </div>
 <hr>
-<button class="btn btn-primary" onclick="window.location.reload()">Make another request</button>
+<p>Encore curieux? Vous pouvez envoyer plusieurs demandes d'accès grâce à Obtenir mes infos :</p>
+<button class="btn btn-primary" onclick="window.location.reload()">Créer une autre demande d'accès</button>
 </section>
 
 <!-- 
@@ -533,18 +535,18 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
 <section id="about" class="tc mt4">
-<h2 class="f6 mt4">This version of Access my Info is supported by</h3>
+<h2 class="f6 mt4">Obtenir mes infos est maintenu par</h3>
 <p><a href=""><img class="w4" src="img/logo.jpg" alt="Logo"/></a></p>
 
-<h2 class="f4 mt3">About this project</h2>
-<p class="f6 tl">Access My Info (AMI) is a web application that enables you to find out what a variety of different companies know about you. It guides you via a step-by-step wizard to generate a formal letter that requests access to your personal information. This letter can then be sent via postal mail or email to the respective company’s privacy officer.</p>
+<h2 class="f4 mt3">À propos de ce projet</h2>
+<p class="f6 tl">Obtenir mes infos (OMI) est un service web qui vous permet de découvrir ce que des entreprises savent à votre sujet. Ce service vous guide pas-à-pas lors de la création d'une lettre officielle de demande d'accès à vos renseignements personnels. Cette lettre peut ensuite être envoyée par la poste ou par courriel au responsable de la protection de la vie privée d'une entreprise, ou jointe à l'outil de demande d'accès aux renseignements personnels du gouvernement fédéral.</p>
 </section>
 </div>
 <section class="bg-dark-gray">
 <div class="container center pv4 mt5">
-            <p class="f7 moon-gray">This service does not collect any of the personal information you provide. This information is used only to generate a letter, which is done entirely in your web browser. Other web pages linked to from this service will be governed by different policies. When you load the service, the web server that hosts the service logs a record of that event. These logs include the IP address used to access each resource required for the service, the date &amp; time of access, and several other non-identifying metadata fields.
-            <p class="f7 moon-gray"><strong>Disclaimer</strong>: This is a research and educational tool and is meant for informational purposes only. This service does not provide legal advice. You are solely responsible for your use of this service and any resulting consequences. {{COMPANY}} make no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the information contained in this document. This software is offered as-is, with no warranty. Nothing herein should be used as a substitute for the legal advice of competent counsel.</p>
-            <p class="f7 moon-gray">This work is based on Access My Info by the Citizen Lab and Open Effect and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+            <p class="f7 moon-gray">Ce service ne recueille aucun des renseignements personnels que vous fournissez. Ces renseignements sont utilisés uniquement pour générer une lettre, qui est créée entièrement par votre fureteur web. D'autres pages web vers lesquelles ce service vous dirige via des hyperliens sont régies par des politiques de confidentialité différentes. Quand vous utilisez le service, le serveur web qui héberge le service enregistre l'adresse IP utilisée pour accéder à chaque ressource requise pour fournir le service, la date et l'heure de l'accès ainsi que plusieurs autres métadonnées dépersonnalisées.
+            <p class="f7 moon-gray"><strong>Avertissement </strong>: Ce site est un outil de recherche et d'éducation. Il est uniquement destiné à des fins d'information. Il ne donne pas d'avis juridique. Vous êtes le seul responsable de l'usage que vous faites de ce site et des conséquences qui peuvent en résulter. {{COMPANY}} ne font aucune représentation, promesse ou garantie sur le caractère exact, complet ou pertinent de l'information contenue dans ce site. Ce logiciel est offert tel quel, sans garantie. Rien sur ce site ne devrait être considéré comme un avis juridique provenant d'un professionnel.</p>
+            <p class="f7 moon-gray">Ce travail est offert sous la licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International..</p>
         </div>
 </section>
 <!-- 
@@ -558,8 +560,8 @@ MOSQUITO wants its sweet, sweet data
  -->
 <form id="requestForm" class="dn">
   <input name="ami_company" id="request_form_company"/>
-  <!-- Set this input to the language you're using and make sure stats/private/validate_company.php is updated accordingly -->
-  <input name="ami_lang" id="request_form_lang" value="en"/>
+  <!-- Set this input to the language you're using and make sure stats/private/validate_company.php and stats/private/validate_lang.php is updated accordingly -->
+  <input name="ami_lang" id="request_form_lang" value="fr"/>
   <input name="ami_hmac" id="request_form_hmac"/>
   <input name="ami_stats_token" id="request_form_token"/>
 </form>
@@ -587,7 +589,7 @@ MOSQUITO wants its sweet, sweet data
   <script type="text/javascript">
     //  Get data for site from JSON file
     //  Update the en.json file if you create another one for a different language version of the app
-    amiApp.getData("data/en.json", function(AMIData){
+    amiApp.getData("data/fr.json", function(AMIData){
       // Start App once data available
       amiApp.dataSource = AMIData;
       amiApp.initialize();

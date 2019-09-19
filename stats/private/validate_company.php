@@ -1,5 +1,5 @@
 <?php
-function validate_company(){
+function validate_company($lang){
 	$DENIED = true;
 	// perform validation here
 	if(
@@ -8,8 +8,17 @@ function validate_company(){
 		)
 	)
 	{
-		// Ensure company is present in master data list
-		$strJsonFileContents = file_get_contents("private/data.json");
+		// Ensure company is present in master data list, depending on language
+		switch ($lang) {
+			case 'fr':
+				$strJsonFileContents = file_get_contents("../static/data/fr.json");
+				break;
+			
+			default:
+				$strJsonFileContents = file_get_contents("../static/data/en.json");
+				break;
+		}
+		
 		if($strJsonFileContents != null){
 			$AMI_DATA = json_decode($strJsonFileContents, true);
 		}

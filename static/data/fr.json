@@ -1,22 +1,24 @@
 {
+	"request_subject_line": "Formal request for access to my personal information",
+	"request_pdf_filename": "Formal_request_for_access_to_my_personal_information.pdf",
 	"industries": [
 		{
 			"id": "telco",
-			"name": "Telecommunications",
+			"name": "Télécommunications",
 			"icon": "img/industries/telecommunications.svg",
-			"description": "Your phone call records, web browsing history, geolocation, and device identifiers."
+			"description": "Votre journal d’appels, votre historique de navigation web, votre géolocalisation et les identifiants de votre appareil."
 		},
 		{
 			"id": "fitness",
-			"name": "Fitness Trackers",
+			"name": "Appareils de suivi de la forme physique",
 			"icon": "img/industries/fitness-trackers.svg",
-			"description": "Your heartbeat, sleeping patterns, diet, weight, walking habits, and general health."
+			"description": "Votre rythme cardiaque, vos habitudes de sommeil, votre régime alimentaire, votre poids, vos itinéraires de marche et votre santé générale."
 		},
 		{
 			"id": "dating",
-			"name": "Dating Applications",
+			"name": "Applications de rencontres",
 			"icon": "img/industries/dating-applications.svg",
-			"description": "Your personality traits, sexual preferences, dating history, and other lifestyle information."
+			"description": "Vos traits de personnalité, vos préférences sexuelles, votre historique de rencontres et d’autres informations sur votre style de vie."
 		}
 	],
 	"companies": [
@@ -123,6 +125,94 @@
 			"name": "Telephone",
 			"id": "telephone",
 			"description": "Your phone number.",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Address 1",
+			"id": "address1",
+			"description": "First line of your address",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Address 2",
+			"id": "address2",
+			"description": "Second line of your address",
+			"industries": ["telco"]
+		},
+		{
+			"name": "City",
+			"id": "city",
+			"description": "City you reside in",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Province",
+			"id": "province",
+			"description": "Province you reside in",
+			"options": [
+				{
+					"id": "AB",
+					"name": "Alberta"
+				},
+				{
+					"id": "BC",
+					"name": "British Columbia"
+				},
+				{
+					"id": "QC",
+					"name": "Québec"
+				},
+				{
+					"id": "MB",
+					"name": "Manitoba"
+				},
+				{
+					"id": "NB",
+					"name": "New Brunswick"
+				},
+				{
+					"id": "NL",
+					"name": "Newfoundlan and Labrador"
+				},
+				{
+					"id": "NS",
+					"name": "Nova Scotia"
+				},
+				{
+					"id": "NT",
+					"name": "Northwest Territories"
+				},
+				{
+					"id": "NU",
+					"name": "Nunavut"
+				},
+				{
+					"id": "ON",
+					"name": "Ontario"
+				},
+				{
+					"id": "PE",
+					"name": "Prince Edward Island"
+				},
+				{
+					"id": "QC",
+					"name": "Québec"
+				},
+				{
+					"id": "SK",
+					"name": "Saskatchewan"
+				},
+				{
+					"id": "YK",
+					"name": "Yukon"
+				}
+			],
+			"industries": ["telco"]
+		},
+		{
+			"name": "Postal Code",
+			"id": "postalcode",
+			"description": "Postal Code",
 			"industries": ["telco"]
 		}
 	]
