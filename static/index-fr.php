@@ -559,11 +559,12 @@ MOSQUITO wants its sweet, sweet data
 ****************************************************
  -->
 <form id="requestForm" class="dn">
-  <input name="ami_company" id="request_form_company"/>
-  <!-- Set this input to the language you're using and make sure stats/private/validate_company.php and stats/private/validate_lang.php is updated accordingly -->
-  <input name="ami_lang" id="request_form_lang" value="fr"/>
-  <input name="ami_hmac" id="request_form_hmac"/>
-  <input name="ami_stats_token" id="request_form_token"/>
+  <label><span>Company</span><input name="ami_company" class="db" id="request_form_company"/></label>
+  <!-- Set this input to the language you're using and make sure stats/private/validate_company.php is updated accordingly -->
+  <label><span>Language</span> <input name="ami_lang" class="db" id="request_form_lang" value="en"/></label>
+  <label><span>HMAC</span> <input name="ami_hmac" class="db" id="request_form_hmac"/></label>
+  <label><span>Token</span> <input name="ami_stats_token" class="db" id="request_form_token"/></label>
+  <span>Server Response: </span><span id="serverResponse" class="db ba1 bg-light-gray"></span>
 </form>
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="js/ami_app/init.js"></script>

@@ -16,6 +16,8 @@ function makePostRequest(url) {
 function logContents() {
   if (httpRequest.readyState === XMLHttpRequest.DONE) {
     var msg = JSON.parse(httpRequest.responseText);
+    var msgHolder = document.getElementById("serverResponse");
+    msgHolder.innerHTML = msg.msg;
     console.log(msg);
     if(httpRequest.status == 200){
       amiApp.stats.requestSent = true;
