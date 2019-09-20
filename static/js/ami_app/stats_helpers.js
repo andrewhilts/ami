@@ -15,9 +15,32 @@ function makePostRequest(url) {
 }
 function logContents() {
   if (httpRequest.readyState === XMLHttpRequest.DONE) {
-    console.log(JSON.parse(httpRequest.responseText));
+    var msg = JSON.parse(httpRequest.responseText);
+    console.log(msg);
     if(httpRequest.status == 200){
       amiApp.stats.requestSent = true;
     }
   }
 }
+
+function getSearchParameters() {
+  var prmstr = window.location.search.substr(1);
+  return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
+}
+
+function transformToAssocArray( prmstr ) {
+  var params = {};
+  var prmarr = prmstr.split("&");
+  for ( var i = 0; i < prmarr.length; i++) {
+      var tmparr = prmarr[i].split("=");
+      params[tmparr[0]] = tmparr[1];
+  }
+  return params;
+}
+
+// Check for the existnace of a debug url flag
+amiApp.urlParams = getSearchParameters();
+if(amiApp.urlParams.hasOwnProperty("debug")){
+  // if urlflag is set, then make the request form visible for debugging.
+  document.getElementById("requestForm").classList.remove("dn");
+} 

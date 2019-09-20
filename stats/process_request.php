@@ -26,7 +26,7 @@ if(!$valid_token || !$valid_company || !$valid_hash || !$valid_lang ){
 	// }
 	// if (!$valid_lang) {
 	// 	$msg .= " Invalid Lang"; 
-	}
+	// }
 	header('HTTP/1.0 403 Forbidden');
 	$res = array(
 		"msg" => $msg
@@ -39,6 +39,8 @@ if(save_request($valid_company, $valid_hash, $valid_lang)){
 	$res = array(
 		"msg" => "Thank you for your request to ".$valid_company."!"
 	);
+	print json_encode($res);
+	die();
 }
 else{
 	$res = array(

@@ -163,6 +163,7 @@ amiApp.requestLetterController = function(
 
 	// If the statistics functioality is enabled, and if the user has not opted-out, generate an HMAC of the request and send it to the server.
 	if(typeof amiApp.stats !== "undefined" && typeof amiApp.stats.token !== "undefined" && !amiApp.stats.optOut){
+		console.log("ass")
 		// Wait until the crypto key is available
 		amiApp.ami_key_promise.then(function(ami_key){
 			var msg = "";
